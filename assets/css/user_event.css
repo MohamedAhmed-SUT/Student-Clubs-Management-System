@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.event-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.event-item h5 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.event-item p {
+    margin-bottom: 5px;
+}
+
+.event-item small {
+    color: #6c757d;
+}
+
+.btn-register {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.filter-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filter-bar input, .filter-bar select, .filter-bar button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,280 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Body and Background Styling */
+body {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Form Container Styling */
+.container {
+  background: #fff;
+  width: 450px;
+  padding: 1.5rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+
+/* Form Title Styling */
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.3rem;
+  margin-bottom: 0.4rem;
+  color: #324ab2;
+
+  font-size: 2.5em;
+}
+
+/* Input Fields Styling */
+input {
+  color: inherit;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #324ab2;
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+
+/* Input Group Styling */
+.input-group {
+  padding: 1% 0;
+  position: relative;
+}
+
+/* Icon inside Input Fields */
+.input-group i {
+  position: absolute;
+  color: black;
+}
+
+/* Focused Input Field Styling */
+
+/* Placeholder Styling */
+
+/* Label Styling */
+label {
+  color: #324ab2;
+  position: relative;
+  left: 1.2em;
+  top: -1.3em;
+  cursor: auto;
+  transition: 0.3s ease all;
+}
+
+/* Label Move on Focus */
+
+/* Password Recovery Link */
+.recover {
+  text-align: right;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recover a {
+  text-decoration: none;
+  color: rgb(125, 125, 235);
+}
+
+.recover a:hover {
+  color: #142057;
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.btn {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: rgb(125, 125, 235);
+  color: white;
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.btn:hover {
+  background: #07001f;
+}
+
+/* Separator Text (e.g. OR) */
+.or {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Social Media Icons Styling */
+.icons {
+  text-align: center;
+}
+
+.icons i {
+  color: rgb(125, 125, 235);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+  margin: 0 15px;
+  transition: 1s;
+}
+
+.icons i:hover {
+  background: #07001f;
+  font-size: 1.6rem;
+  border: 2px solid rgb(125, 125, 235);
+}
+
+/* Links Section */
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem;
+  margin-top: 0.9rem;
+  font-weight: bold;
+}
+
+/* Button Styling */
+button {
+  color: #b0e0e6;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: #c71585;
+}
+
+/* Video Background Styles */
+.background-video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  background: rgba(176, 224, 230, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #324ab2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #121e57;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #c71585;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #9b1469;
+}
+input::placeholder {
+  color: #324ab2; /* Replace with your desired color */
+}
+
+/* Add this CSS to your Register&Login.css file */
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #324ab2; /* Default border color */
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
